@@ -9,6 +9,7 @@ class InfoWidget extends StatelessWidget {
   child:Container(
     height: 50,
     width: 50,
+
     child: FlatButton(
       child: Ink(
         child: RaisedButton.icon(
