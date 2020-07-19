@@ -11,8 +11,6 @@ class InfoScreen extends StatelessWidget {
       children: <Widget>[
         InfoWidget(),
 
-
-
     ],
       ),
       ),
