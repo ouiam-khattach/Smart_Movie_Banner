@@ -12,6 +12,7 @@ class InfoScreen extends StatelessWidget {
         InfoWidget(),
 
 
+
     ],
       ),
       ),
