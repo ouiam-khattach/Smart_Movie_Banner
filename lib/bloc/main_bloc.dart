@@ -7,7 +7,10 @@ part 'main_event.dart';
 part 'main_state.dart';
 
 class MainBloc extends Bloc<MainEvent, MainState> {
-  MainBloc() : super(MainInitial());
+  
+  @override
+  // TODO: implement initialState
+  MainState get initialState => null;
 
   @override
   Stream<MainState> mapEventToState(
@@ -15,4 +18,7 @@ class MainBloc extends Bloc<MainEvent, MainState> {
   ) async* {
     // TODO: implement mapEventToState
   }
+
+
+
 }
